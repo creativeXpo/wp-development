@@ -1,0 +1,273 @@
+.stu_movement_home {
+    background-image: url('/wp-content/uploads/2024/08/Students-Movement-Cover.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: block;
+    overflow: hidden;
+    position: relative;
+}
+.stu_movement_home::before {
+    content: '';
+    position: absolute;
+    background: #000000c4;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+header #header {
+	position: relative;
+} 
+
+.page-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+}
+#main {
+    margin-top: 0 !important;
+    min-height: 75vh;
+}
+.page_title h4 {
+    color: #ffffffad;
+    z-index: 9;
+    position: relative;
+    font-size: 3rem;
+    text-align: center;
+    max-width: 900px;
+    font-weight: 700;
+}
+#footer {
+    background-color: #e74c3c;
+    text-align: center;
+    margin-top: 50px;
+    color: #fff;
+}
+.mim_col{
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+}
+
+.martyrs_title,
+.martyrs_count,
+.injured_title,
+.injured_count,
+.missing_title,
+.missing_count {
+    font-size: 30px;
+    font-weight: 600;
+    color: #000;
+    display: inline-block;
+    transition: all 0.3s;
+    padding: 0 7px;
+}
+.martyrs_title,
+.injured_title,
+.missing_title{
+    text-align: right;
+}
+.person_details {
+    padding: 7px 12px;
+    border-radius: 4px;
+    font-size: 14.5px;
+    border: 1px solid #5e000033;
+    color: #5e0000;
+    display: inline-block;
+    margin-top: 10px;
+    transition: all 0.3s;
+}
+.status_link {
+    display: block;
+    margin: 40px 0;
+    padding: 20px 25px;
+    border-radius: 10px;
+}
+
+.status_link.one {
+    background-color: #e74c3c3d;
+    transition: all 0.3s;
+}
+.status_link.one:hover {
+    background-color: #e74c3c;
+}
+.status_link:hover .martyrs_title, 
+.status_link:hover .martyrs_count,
+.status_link:hover .injured_title,
+.status_link:hover .injured_count,
+.status_link:hover .missing_title,
+.status_link:hover .missing_count{
+    color: #fff;
+}
+
+
+.status_link.two {
+    background-color: #00b89436;
+    transition: all 0.3s;
+}
+.status_link.two:hover {
+    background-color: #00b894;
+}
+.status_link.three {
+    background-color: #988bf46b;
+    transition: all 0.3s;
+}
+.status_link.three:hover {
+    background-color: #988bf4;
+}
+.page-navigation {
+    margin-top: 65px !important;
+}
+.page-link.current {
+    background-color: #e74c3c;
+    color: #fff;
+}
+.page-link {
+    color: #e74c3c;
+}
+.single_container {
+    margin-top: 50px;
+}
+
+.input-group .btn, .input-group .wp-block-button .wp-block-button__link, .wp-block-button .input-group .wp-block-button__link {
+    background-color: #e74c3c;
+    color: #fff;
+    border-color: #e74c3c;
+    transition: all 0.3s;
+}
+
+.btn:hover,
+.wp-block-button .wp-block-button__link:hover {
+    background-color: #b5291a;
+    border-color: #b5291a;
+}
+
+.submit-data-container {
+    margin-top: 50px;
+}
+
+.card-body p {
+    margin-bottom: 5px;
+}
+.submit-data label {
+    font-weight: 600;
+}
+.submit-btn {
+    max-width: 250px !important;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.submit-btn-btn {
+    border: 0;
+    background-color: #00b894;
+    width: 100%;
+    border-radius: 3px;
+    padding: 10px 0px;
+    color: #fff;
+    transition: all 0.3s;
+}
+.submit-btn-btn:hover {
+    background-color: #e74c3c;
+}
+
+.search-page-header {
+    text-align: center;
+    padding: 50px 0;
+}
+.search-page-header h3 {
+    font-size: 22px;
+}
+
+.not-found {
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 500px;
+    text-align: center;
+}
+
+
+.loadMoreBtn#loadMore{
+    box-shadow: none;
+    border: none;
+    margin-top: 50px;
+}
+
+.loadMoreBtn#loadMore:hover {
+    background-color: transparent;
+    border: none;
+}
+
+.loadMoreBtn-label {
+    color: #fff;
+    font-size: 15px;
+    background: #00b894;
+    transition: all 0.3s;
+    padding: 6px 15px;
+    border-radius: 5px;
+}
+
+.loadMoreBtn-label:hover {
+    background-color: #e74c3c;
+}
+.card,
+.card a{
+    overflow: hidden;
+}
+.card img{
+    transition: all 0.3s;
+}
+.card:hover img{
+    transform: scale(1.03);;
+}
+.card:hover .person_details{
+    background-color: #e74c3c3d;
+    border-color: #e74c3c3d;
+}
+.card:hover {
+    border-color: #e74c3c3d;
+}
+#wrapper header{
+	position: relative;
+    display: block;
+}
+
+/*Responsive*/
+
+@media only screen and (max-width: 992px) {
+    .status_link {
+        padding: 13px 10px;
+        margin: 29px 0;
+    }
+    .martyrs_title, .martyrs_count, .injured_title, .injured_count, .missing_title, .missing_count {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .status_link {
+        margin: 17px 0;
+    }
+    .mim_col {
+        flex-direction: column;
+    }
+    .martyrs_title, .martyrs_count, .injured_title, .injured_count, .missing_title, .missing_count {
+        text-align: center;
+        font-size: 15px;
+    }
+    .mob-pad {
+        padding: 0px 5px !important;
+    }
+    .page_title h4 {
+        font-size: 27px;
+    }
+    .page-header {
+        padding: 60px 0;
+    }
+}
